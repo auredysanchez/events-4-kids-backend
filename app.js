@@ -12,7 +12,7 @@ app.use(cors());
 app.use("/events", eventsController);
 
 app.get("/", (request, response) => {
-  response.send("Hello KidsEvents");
+  response.send("Hello 4kidsEvents");
 });
 
 // app.listen(PORT, () => {
