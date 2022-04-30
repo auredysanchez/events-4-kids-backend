@@ -1,9 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-
-const KidsEvents = require("../../src/data/kidsEvents.json");
-
+const KidsEvents = require("../kidsEvents.json");
 
 router.get("/", (request, response) => {
   response.json(KidsEvents);
