@@ -17,8 +17,4 @@ app.get("/", (request, response) => {
   response.send("Hello 4kidsEvents");
 });
 
-// app.listen(PORT, () => {
-//   console.log(`🪨 Listening on port ${PORT} 💎 `);
-// });
-
 module.exports = app;
