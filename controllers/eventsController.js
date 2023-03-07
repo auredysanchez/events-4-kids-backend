@@ -28,7 +28,6 @@ router.post('/', (request, response) => {
   const title = request.body.title;
   const date = request.body.date;
   const location = request.body.location;
-
   // const addEvent = {title, date, location, startAge, endAge}
 
   console.log(request.body.addEvent);
