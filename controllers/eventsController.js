@@ -1,5 +1,5 @@
 const express = require("express");
-const { request, response } = require("../app");
+const { response, request} = require("../app");
 const router = express.Router();
 
 const KidsEvents = require("../kidsEvents.json");
